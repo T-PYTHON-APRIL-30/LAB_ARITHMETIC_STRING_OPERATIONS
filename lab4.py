@@ -17,9 +17,9 @@ Print the subtotal, tax, and total costs, formatted as currency (e.g., $8.97 for
 
 '''
 
-price = 30.99
-quantity = 4
-tax_rate = 1.5
+price = 2.99
+quantity = 3
+tax_rate = 7.5/100
 
 subtotal = price*quantity
 
