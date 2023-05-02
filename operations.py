@@ -1,20 +1,16 @@
-price = 100
+price = 2.99
 quantity = 3
-tax_rate = 15
+tax_rate = 7.5
 subtotal = (price * quantity)
 
-print("Price of item", price)
-print("Quantity", quantity)
-print("Tax rate", tax_rate)
+print("Price of item: $", price)
+print("Quantity:", quantity)
+print("Tax rate:", tax_rate ,"%")
 
-print("Subtotal" ,subtotal)
+print("Subtotal $" ,subtotal)
 
 tax =  subtotal * 0.15
-print("tax",tax)
+print("tax $",tax)
 
 total = subtotal + tax
-print("Total:", total)
-
-about_Cost = "subtotal is {} , tax is {} and total is {} ".format(subtotal, tax, total )
-print(about_Cost)
-
+print("Total: $", total)
