@@ -1,0 +1,23 @@
+
+# calculate the total cost of a customer's purchase, including tax.
+price:float = 2.99
+quantity:int = 3
+tax_rate:float = 0.075
+
+# Calculate the subtotal by multiplying the price by the quantity.
+subtotal:float = price*quantity
+
+# Calculate the tax by multiplying the subtotal by the tax rate (in decimal form, e.g., 0.075).
+tax:float = subtotal*tax_rate
+
+# Calculate the total cost by adding the subtotal and the tax.
+total:float = subtotal+tax
+
+# Print the subtotal, tax, and total costs, formatted as currency.
+print("Price of item: ${:.2f}".format(price))
+print("Quantity:", quantity)
+print("Tax rate:", "%s%%"%(tax_rate*100), '\n')
+
+print("Subtotal: ${:.2f}".format(subtotal))
+print("Tax: ${:.2f}".format(tax))
+print("Total: ${:.2f}".format(total))
