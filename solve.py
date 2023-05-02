@@ -27,18 +27,19 @@ Total: $9.64'''
 price = 2.99
 quantity= 3
 Tax_rate= 0.15
+currncy="SR"
 
 Subtotal= price * quantity
 Tax= Subtotal * Tax_rate
 total= Subtotal+Tax
 
-print("Price of item:", price)
+print("Price of item:", price,currncy)
 print("Quantity:", quantity)
-print("Tax rate:",Tax_rate)
+print("Tax rate:",Tax_rate,currncy)
 print("--"*14)
-print("Subtotal:",Subtotal)
-print("Tax:",Tax)
-print("total:", total)
+print("Subtotal:",Subtotal,currncy)
+print("Tax:",Tax,currncy)
+print("total:", total,currncy)
 
 
 
