@@ -29,15 +29,21 @@ Tax: $0.67
 Total: $9.64
 ```
 '''
+
+#Defining variables
 price = 6.77
 quantity = 4
 tax_rate = 0.15
+
+#equations
 subtotal = price*quantity
 tax = subtotal*tax_rate
 total = subtotal+tax
+
+#print functions
 print(f"Price of item: ${price}")
 print("Quantity:", quantity)
-print(f"Tax rate: {tax_rate*100}%\n")
+print(f"Tax rate: {tax_rate*100}%\n") #\n is used to skip a line
 print(f"Subtotal: ${subtotal}")
-print(f"Tax: ${round(tax,2)}")
+print(f"Tax: ${round(tax,2)}") #round(variable,2) is used to only show the first 2 decimals
 print(f"Total: ${round(total,2)}")
