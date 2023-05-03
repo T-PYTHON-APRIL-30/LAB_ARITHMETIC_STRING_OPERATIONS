@@ -27,7 +27,7 @@ price = 5.5
 print("price of item:", "SAR", price)
 quantity = 4
 print("Quantity:",quantity)
-tax_rate =15%
+tax_rate =15
 Tax_rate =price * 0.15
 print("Tax rate:",Tax_rate)
 subtotal = price * quantity
